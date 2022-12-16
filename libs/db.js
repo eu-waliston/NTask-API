@@ -1,6 +1,7 @@
-import Sequelize from "sequelize"
+const Sequelize = require("sequelize")
 const config = require("../libs/config")
 let sequelize = null;
+
 module.exports = () => {
     if(!sequelize) {
         sequelize = new Sequelize(
