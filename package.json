@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "babel": "^6.23.0",
+    "consign": "^0.1.6",
     "express": "^4.18.2"
   },
   "devDependencies": {
