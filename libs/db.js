@@ -1,4 +1,4 @@
-const Sequelize = require("sequelize");
+import Sequelize from "sequelize"
 const config = require("../libs/config.js");
 
 let sequelize = null;
