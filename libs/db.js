@@ -1,5 +1,6 @@
-const Sequelize = require("sequelize")
-const config = require("../libs/config")
+const Sequelize = require("sequelize");
+const config = require("../libs/config.js");
+
 let sequelize = null;
 
 module.exports = () => {
@@ -12,4 +13,4 @@ module.exports = () => {
         );
     }
     return sequelize;
-};
+}
