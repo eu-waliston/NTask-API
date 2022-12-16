@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "consign": "^0.1.6",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "sequelize": "^6.27.0",
+    "sqlite3": "^5.1.4"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0"
