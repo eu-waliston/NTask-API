@@ -1,8 +1,9 @@
-module.exports = app => {
-    app.db.sync().done(() => {
-        app.listen(app.get("port"), () => {
-            console.log(`NTask API - porta ${app.get("port")}`);
-        })
-    })
+const  Sequelize = require("sequelize") 
 
+module.exports = app => {
+    
+    app.listen(app.get("port"), () => {
+        Sequelize.sync({force: true})
+        console.log(`NTask API - porta ${app.get("port")}`);
+    })
 }
